@@ -9,6 +9,6 @@ print()
 # When calling a function, you must have paranthesis after a function name.
 # The Print function can take different kind of arguments
 
-print('The End', 'or is it?', "keep watching to learn more about Python", 3)
+print('The End', 'or is it?',)
 
 input()
