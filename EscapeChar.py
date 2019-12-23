@@ -28,12 +28,12 @@ print(anotherSplitString)
 
 # If you would like to include backslashes in your strings you will need to either
 # prefix the string with an r, or put an addtional backslash in the string.
-print('Example without r or \\\\: ', "C:Users\timbulchalka\notes.txt")
+print('Example without r or \\\\: ', "C:Users\etc\notes.txt")
 
 print("Examples with prefixing string with r or adding double backslashes")
 # The 'r' stands for raw string
-print("C:Users\\timbulchalka\\notes.txt")
-print(r"C:Users\timbulchalka\notes.txt")
+print("C:Users\\etc\\notes.txt")
+print(r"C:Users\etc\notes.txt")
 
 input()
 
