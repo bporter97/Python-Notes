@@ -4,8 +4,8 @@
 
 # Tuples can be defined with or without parenthesis, except for when
 # syntax requires it like in the 3rd example.
-# The first and third examples are tuples, signified by the square
-# brackets that are printed
+# The first and third examples are tuples, signified by the parenthesis
+# that are printed
 t = "a", "b", "c"
 print(t)
 
