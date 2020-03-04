@@ -27,7 +27,7 @@ print(a.__add__(b)) # _add_ is the method here
 # A class can be considered a template from which objects can be created
 class Kettle(object):
 
-    def __init__(self, make, price): # initializes class
+    def __init__(self, make, price): # initializes class using the __init__Constructor
         self.make = make
         self.price = price
         self.on = False
@@ -39,8 +39,8 @@ class Kettle(object):
 # if i wanted to access the price of the kenwood instance I would put
 # kenwood.price.
 
-kenwood = Kettle("Kenwood", 8.99)
-print(kenwood.make)
+kenwood = Kettle("Kenwood", 8.99) # Here, an object of type Kettle is initialized and called "Kenwood" with a price of 8.99
+print(kenwood.make)               # This happened because the make and price attributes were initialized in the def __init__ code bock
 print(kenwood.price)
 
 kenwood.price = 12.75 # Adjusting price
