@@ -1,3 +1,11 @@
+# Class: Template for creating objects. All objects created using the same class will have the same characteristcs.
+# Object: an instance of a class.
+# Instantiate: Create an instance of a class.
+# Method: A function defined in a class.
+# Attribute: a variable bound to an instance of a class
+# Self: reference to the instance of a class
+# Constructor: refers to a special method that is executed when an instance of a class is created/constructed
+
 # Imperative programming involves providing a computer
 # with a series of instruction that are in a defined order.
 
