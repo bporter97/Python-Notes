@@ -1,7 +1,7 @@
 # Objects in python can be considered instances of a class, and Classes can be considered blueprints
 # for a said object.
 
-# Exampe: x = 10, so therefore, the variable x is an instance/object of the integer class, that has a value of 5
+# Exampe: x = 10, so therefore, the variable x is an instance/object of the integer class, that has a value of 10
 # whereas something like y = "Hello" would me the variable y is an instance/object of the
 # string class, with the value of "Hello".
 # Classes allow us to have built in functionality in python.
