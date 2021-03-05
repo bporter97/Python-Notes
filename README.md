@@ -5,3 +5,6 @@ These note are for begginners, like myself to refer to. These notes can be redis
 not mislead other learners. These notes are completely free and will be updated as I learn more of the python programming language.
 If you see something that is incorrect, inaccurate or could just be worded better, please let me know and I will make the necessary changes.
 Everyone is welcome to download or add to this repository. I encourage it :)
+
+# Sources
+These notes are from a combination of School, Tim Bulchaka's Python Masterclass on Udemy, and stuff I have picked up along the way.
