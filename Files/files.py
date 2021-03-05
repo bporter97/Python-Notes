@@ -3,7 +3,7 @@ import os # imports os module
 os.chdir(r'P:\Python Projects\Python-Notes\files') # set's the working directory for the python script:
 # Allows us to open File.txt without having to type the full file path in the open() method
 
-ofile = open("File.txt") # To enable users to gain access to a file, we need to instantiate a variable 
+ofile = open("File.txt", 'r') # To enable users to gain access to a file, we need to instantiate a variable: the 'r' actually sets the file to read mode 
 # and assign it to the open() method, with the file name included in the parenthesis.
 # This doesn't read the file into the program, it more or less "imports" it and allows you to call it later
 # much like importing an additional python module
@@ -18,9 +18,7 @@ for i in ofile: # Python navigates files through line. This for statement with i
 
 # The print() function in python automatically adds a new line after it reads the line from a txt file 
 
-rfile = ofile.read() #reads a file into memory
+rfile = ofile.read() #reads entire file into memory and assigns it to a string variable=
 count = 0
-for i in ofile : 
+for i in rfile : 
     count = count + 1
-
-print("there are ", count, " in this excerpt")
